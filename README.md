@@ -26,7 +26,7 @@ It cannot intercept control over the entity due to the fact that the interceptio
 ```Lua
 local function repairCurrentVehicle(netId)
     local veh = NetworkGetEntityFromNetworkId(netId)
-    local is_request = exports['requestNetworkControl']:requestNetworkControl(netId)
+    local is_request = exports['migrate-control']:requestNetworkControl(netId)
     if IsEntityAVehicle(veh) and is_request then
         SetVehicleEngineHealth(veh, 1000)
         SetVehicleEngineOn(veh, true, true)
