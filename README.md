@@ -39,3 +39,4 @@ end
 ```Lua
 CFG.debug_mode = true;
 ```
+![image](https://user-images.githubusercontent.com/60612282/179425733-b50fed45-5b4a-468c-9abd-864527c186ac.png)
