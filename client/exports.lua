@@ -1,3 +1,3 @@
-exports('requestNetworkControl', function (netId, duration)
+exports('requestNetworkControl', function(netId, duration)
     Base:requestNetworkControl(netId, duration)
 end)

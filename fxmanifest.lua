@@ -5,6 +5,7 @@ client_scripts {
   'client/Base.lua',
   'client/Debugger.lua',
   'client/Entitier.lua',
+  'client/exports.lua'
 }
 
 server_scripts {
