@@ -37,7 +37,7 @@ function Base:requestNetworkControl(netId, duration)
     end
 
     if NetworkHasControlOfNetworkId(netId) then
-		p:resolve(true)
+		Promise:resolve(true)
 		return true
 	end
 
