@@ -6,6 +6,9 @@ Just a solution to take control of an entity
 - Solving the problem when an entity turns to stone and cannot be used
 - Readable and editable code
 
+# Get info from emoji commit
+[GitEmoji](https://pages.github.com/)
+
 ## Why and who needs it
 Need this for those who use OneSync, especially BigMode/Infinity.
 
