@@ -36,6 +36,11 @@ function Base:requestNetworkControl(netId, duration)
         return false
     end
 
+    if NetworkHasControlOfNetworkId(netId) then
+		p:resolve(true)
+		return true
+	end
+
     self:setNetIdOwnerCullingRadius(netId, self.default.distace_culling.max)
 
     async(function()
