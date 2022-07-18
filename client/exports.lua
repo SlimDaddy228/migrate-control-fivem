@@ -1,7 +1,7 @@
 exports('requestNetworkControl', function(netId, duration)
-    Base:requestNetworkControl(netId, duration)
+    return Base:requestNetworkControl(netId, duration)
 end)
 
 exports('buildLabel', function(entity)
-    Debugger:buildLabel(entity)
+    return Debugger:buildLabel(entity)
 end)
